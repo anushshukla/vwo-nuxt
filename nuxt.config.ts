@@ -4,9 +4,11 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [
+        // VWO Preconnect link
         { rel: 'preconnect', href: 'https://dev.visualwebsiteoptimizer.com' }
       ],
       script: [
+        // VWO SmartCode
         {
           type: 'text/javascript',
           id: 'vwoCode',
